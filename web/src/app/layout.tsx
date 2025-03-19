@@ -1,3 +1,4 @@
+import './global.css'
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -12,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className='bg-black text-shadow-danger'>{children}</body>
     </html>
   );
 }
