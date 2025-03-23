@@ -1,10 +1,8 @@
 import Image from 'next/image'
 import logo from '../../assets/logo.svg'
-import { InputField, InputIcon, InputRoot } from '../components/input'
-import { BadgeCheck, Copy, Link, Medal, MousePointerClick } from 'lucide-react'
-import { IconButton } from '../components/icon-button'
 import { Ranking } from './ranking'
 import { Stats } from './stats'
+import { InviteLinkInput } from './invite-link-input'
 
 
 export default async function InvitePage() {
@@ -33,16 +31,8 @@ export default async function InvitePage() {
                             inscrições:
                         </p>
                     </div>
-                    <InputRoot>
-                        <InputIcon>
-                            <Link className="size-5"  />
-                        </InputIcon>
-                        <InputField readOnly defaultValue="http://localhost/invite/gdhfyvhtgj" />
-
-                        <IconButton className="-mr-2">
-                            <Copy className="size-5" />
-                        </IconButton>
-                    </InputRoot>
+                 
+                 <InviteLinkInput />
 
                   <Stats />
                 </div>
