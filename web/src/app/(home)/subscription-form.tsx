@@ -1,6 +1,6 @@
 import { User, Mail, ArrowRight } from "lucide-react";
-import { Button } from "./components/button";
-import { InputField, InputIcon, InputRoot } from "./components/input";
+import { Button } from "../components/button";
+import { InputField, InputIcon, InputRoot } from "../components/input";
 
 export function SubscriptionForm() {
     return(

@@ -1,9 +1,7 @@
 import Image from 'next/image'
-import logo from '../assets/logo.svg'
-import { ArrowRight, Mail, Radio, User } from 'lucide-react'
-import { InputField, InputIcon, InputRoot } from './components/input';
-import { Button } from './components/button';
+import logo from '../../assets/logo.svg'
 import { SubscriptionForm } from './subscription-form';
+import { Radio } from 'lucide-react';
 
 export default function Home() {
   return (
