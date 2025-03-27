@@ -1,0 +1,27 @@
+POST http://localhost:3333/subscriptions
+Content-Type: application/json
+
+{
+  "name": "dfr",
+  "email": "drf@hotmail.com",
+  "referrer": "4e707046-edd3-4ddc-be13-2062ec07da06"
+}
+
+####
+
+GET http://localhost:3333/invites/068256dc-2026-499f-b0c4-60a7463ba616
+
+####
+ 
+GET http://localhost:3333/subscribers/4e707046-edd3-4ddc-be13-2062ec07da06/ranking/clicks
+ 
+####
+
+GET http://localhost:3333/subscribers/4e707046-edd3-4ddc-be13-2062ec07da06/ranking/count
+
+####
+GET http://localhost:3333/subscribers/4e707046-edd3-4ddc-be13-2062ec07da06/ranking/position
+ 
+####
+
+GET http://localhost:3333/ranking
